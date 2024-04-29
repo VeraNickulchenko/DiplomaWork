@@ -132,13 +132,13 @@ public class LocaleContext {
         public static Languages matchLang(Countries country){
 
             switch (country){
-                case UKRAINE -> {
+                case UKRAINE:
                     return Languages.UKRAINIAN;
-                }
 
-                case USA -> {
+
+                case USA:
                     return Languages.ENGLISH;
-                }
+
 
             }
 
@@ -157,13 +157,13 @@ public class LocaleContext {
         public static Countries matchCountry(Languages lang){
 
             switch (lang){
-                case UKRAINIAN -> {
+                case UKRAINIAN:
                     return Countries.UKRAINE;
-                }
 
-                case ENGLISH -> {
+
+                case ENGLISH:
                     return Countries.USA;
-                }
+
             }
 
             throw new IllegalArgumentException("Language: " + lang.getLanguageCode() + " has " +
