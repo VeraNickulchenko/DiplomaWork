@@ -1,4 +1,4 @@
-package enums;
+package datagenerator.enums;
 
 /**
  * Enum of languages, supported by the faker.

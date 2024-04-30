@@ -1,9 +1,9 @@
-package dataproviders;
+package datagenerator.dataproviders;
 
-import customizers.SingletonLocaleContext;
+import datagenerator.customizers.SingletonLocaleContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import services.RandomService;
+import datagenerator.services.RandomService;
 
 
 /**

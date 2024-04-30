@@ -1,4 +1,4 @@
-package utils.error_message_adjustments;
+package datagenerator.utils.error_message_adjustments;
 
 import java.util.List;
 import java.util.stream.Stream;

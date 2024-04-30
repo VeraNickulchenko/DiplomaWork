@@ -1,7 +1,7 @@
-package dataproviders;
+package datagenerator.dataproviders;
 
-import customizers.SingletonLocaleContext;
-import services.RandomService;
+import datagenerator.customizers.SingletonLocaleContext;
+import datagenerator.services.RandomService;
 
 /**
  * Provides methods for generating credentials, extending the functionality of the BaseProvider class.

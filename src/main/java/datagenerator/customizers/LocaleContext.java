@@ -1,8 +1,8 @@
-package customizers;
+package datagenerator.customizers;
 
-import enums.Countries;
-import enums.Languages;
-import utils.error_message_adjustments.ExceptionsHandlerUtils;
+import datagenerator.enums.Countries;
+import datagenerator.enums.Languages;
+import datagenerator.utils.error_message_adjustments.ExceptionsHandlerUtils;
 import java.util.Objects;
 
 /**

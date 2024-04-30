@@ -1,4 +1,4 @@
-package customizers;
+package datagenerator.customizers;
 
 import java.util.HashMap;
 

@@ -1,6 +1,6 @@
-package utils.requests_resolvers;
+package datagenerator.utils.requests_resolvers;
 
-import customizers.SingletonLocaleContext;
+import datagenerator.customizers.SingletonLocaleContext;
 
 import java.io.File;
 import java.util.Arrays;

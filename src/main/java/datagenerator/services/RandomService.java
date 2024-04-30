@@ -1,4 +1,4 @@
-package services;
+package datagenerator.services;
 
 import java.util.Random;
 

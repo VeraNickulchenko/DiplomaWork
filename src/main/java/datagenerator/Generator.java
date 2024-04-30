@@ -1,9 +1,11 @@
-import customizers.LocaleContext;
-import customizers.SingletonLocaleContext;
-import dataproviders.CredentialsProvider;
-import dataproviders.EmailProvider;
-import dataproviders.NameProvider;
-import services.RandomService;
+package datagenerator;
+
+import datagenerator.customizers.LocaleContext;
+import datagenerator.customizers.SingletonLocaleContext;
+import datagenerator.dataproviders.CredentialsProvider;
+import datagenerator.dataproviders.EmailProvider;
+import datagenerator.dataproviders.NameProvider;
+import datagenerator.services.RandomService;
 
 import java.util.Random;
 

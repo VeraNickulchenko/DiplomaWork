@@ -1,4 +1,4 @@
-package utils.dateparser.jsonparser;
+package datagenerator.utils.dateparser.jsonparser;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;

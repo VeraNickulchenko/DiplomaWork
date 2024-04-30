@@ -1,10 +1,10 @@
-package dataproviders;
+package datagenerator.dataproviders;
 
-import customizers.SingletonLocaleContext;
+import datagenerator.customizers.SingletonLocaleContext;
 import org.apache.logging.log4j.Level;
-import utils.requests_resolvers.RequestExecutor;
-import services.RandomService;
-import utils.error_message_adjustments.ExceptionsHandlerUtils;
+import datagenerator.utils.requests_resolvers.RequestExecutor;
+import datagenerator.services.RandomService;
+import datagenerator.utils.error_message_adjustments.ExceptionsHandlerUtils;
 
 import java.io.IOException;
 import java.util.HashMap;

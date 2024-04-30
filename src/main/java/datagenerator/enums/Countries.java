@@ -1,4 +1,4 @@
-package enums;
+package datagenerator.enums;
 
 /**
  * Enum of countries, supported by the faker.

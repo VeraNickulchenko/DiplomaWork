@@ -1,9 +1,9 @@
-package utils.requests_resolvers;
+package datagenerator.utils.requests_resolvers;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import customizers.SingletonLocaleContext;
-import services.RandomService;
-import utils.dateparser.jsonparser.JSONParser;
+import datagenerator.customizers.SingletonLocaleContext;
+import datagenerator.services.RandomService;
+import datagenerator.utils.dateparser.jsonparser.JSONParser;
 
 import java.io.IOException;
 import java.util.ArrayList;
