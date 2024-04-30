@@ -24,7 +24,6 @@ public class SingletonLocaleContext {
      *
      * @param locale The LocaleContext for which the SingletonLocaleContext instance is to be retrieved or created.
      * @return The SingletonLocaleContext instance associated with the provided LocaleContext.
-     * @implNote If the provided LocaleContext is null, returns null.
      */
     public static SingletonLocaleContext get(LocaleContext locale){
 

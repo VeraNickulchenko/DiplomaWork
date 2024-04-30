@@ -21,8 +21,8 @@ public class RequestExecutor {
 
     /**
      * Executes the request and returns the list of objects, returned as response.
-     * The objects returned are represented as HashMap<String, List<String>, where
-     * String is the key, that represent attribute requested and the List<String> is the
+     * The objects returned are represented as HashMap&lt;String, List&lt;String&gt;&gt;, where
+     * String is the key, that represent attribute requested and the List&lt;String&gt; is the
      * value, that represents value of the attribute.
      * The request is resolved with help of RequestResolver utility.
      */

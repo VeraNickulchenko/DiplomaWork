@@ -30,7 +30,7 @@ public class EmailProvider extends BaseProvider{
      * Generates a random domain name for an email address.
      *
      * @return The generated domain name.
-     * @implNote This method generates a random domain name with the format "@randomString.com".
+     * This method generates a random domain name with the format "@randomString.com".
      *           The randomString consists of 4 characters and does not include uppercase letters, numbers, or special characters.
      */
     public String getEmailDomainName(){
