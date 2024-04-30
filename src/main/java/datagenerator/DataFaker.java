@@ -9,21 +9,21 @@ import datagenerator.services.RandomService;
 
 import java.util.Random;
 
-public class Generator {
+public class DataFaker {
     private SingletonLocaleContext locale;
     private RandomService randomService;
 
-    public Generator(LocaleContext localeContext, Random random) {
+    public DataFaker(LocaleContext localeContext, Random random) {
         this.locale = SingletonLocaleContext.get(localeContext);
         this.randomService = new RandomService(random);
     }
 
-    public Generator(LocaleContext locale){
+    public DataFaker(LocaleContext locale){
         this.locale = SingletonLocaleContext.get(locale);
         this.randomService = new RandomService();
     }
 
-    public Generator(Random random){
+    public DataFaker(Random random){
         this.locale = SingletonLocaleContext.get(new LocaleContext());
         this.randomService = new RandomService(random);
     }
